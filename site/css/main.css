@@ -1,0 +1,30 @@
+.rock{
+    margin: 10px 0;
+    padding: 25px;
+    height: 250px;
+    width: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.275),rgba(0, 0, 0, 0.275)),url(images/rock.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+.hiphop{
+    margin: 10px 0;
+    padding: 25px;
+    height: 250px;
+    width: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.275),rgba(0, 0, 0, 0.275)),url(images/hiphop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+.pop{
+    margin: 10px 0;
+    padding: 25px;
+    height: 250px;
+    width: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.275),rgba(0, 0, 0, 0.275)),url(images/pop.jpg); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}

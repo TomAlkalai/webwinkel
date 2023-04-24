@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: black;
+}
+.container{
+    display: flex;
+    margin: 0 5%;
+}
+nav{
+    margin: 0 5%;
+    display: flex;
+    padding: 25px 0%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(237, 206, 145);
+    justify-content: space-between;
+}
+form{
+    width: 700px;
+    height: 30px;
+    display: flex;
+}
+form input{
+    flex: 1;
+    border-top-left-radius: 12px ;
+    border-bottom-left-radius: 12px;
+    border: none;
+    outline: none;
+}
+form button{
+    background-color: rgb(237, 206, 145);
+    padding: 5px 10px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.nav-icons{
+    text-align: right;
+}
+.nav-icons ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 5px 20px;
+
+}
+.nav-icons ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    background-color: black;
+}
+.nav-icons ul li a:hover{
+    color: rgb(237, 206, 145);
+}
+header{
+    height: 500px;
+    background-image: url(images/mick-haupt-vGXHIh3URzc-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+main{
+    height: auto;
+    background-color: rgb(237, 206, 145);
+}
+.genres{
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+.genres h2{
+    font-size: 24px;
+}
+.rock{
+    margin: 10px 0;
+    padding: 25px;
+    height: 250px;
+    width: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.275),rgba(0, 0, 0, 0.275)),url(images/diane-picchiottino-qtHDmsHn3N4-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+.hiphop{
+    margin: 10px 0;
+    padding: 25px;
+    height: 250px;
+    width: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.275),rgba(0, 0, 0, 0.275)),url(images/karsten-winegeart-X2reytV0chs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+.pop{
+    margin: 10px 0;
+    padding: 25px;
+    height: 250px;
+    width: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.275),rgba(0, 0, 0, 0.275)),url(images/victor-rodvang-rbSpGv1wb5M-unsplash.jpg); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.rock:hover{
+    box-shadow: 8px 11px 17px 0px rgba(104, 2, 2, 0.24);
+    transition: 0.3s;
+}
+.hiphop:hover{
+    box-shadow: 8px 11px 17px 0px rgba(2, 7, 104, 0.24);
+    transition: 0.3s;
+}
+.pop:hover{
+    box-shadow: 8px 11px 17px 0px rgba(104, 102, 2, 0.24);
+    transition: 0.3s;
+}

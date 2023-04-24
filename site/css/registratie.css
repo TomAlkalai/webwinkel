@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(22, 90, 186, 0.89),rgba(0, 47, 113, 0.825),rgba(2, 2, 48, 0.879));
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 1rem;
+}
+.container h2{
+    margin: 0px 0px 30px;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+.container .form-groep{
+    position: relative;
+}
+.container .form-groep input{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 30px;
+    border: 0px;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+}
+.container .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .button button{
+    font-size: 16px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 8px 17px;
+    transition: 0.3s; 
+}
+.container .button button:hover{
+    background-color: rgba(0, 0, 0, 0.216);
+    box-shadow: 0 9px 11px rgba(0, 0, 0, 0.392);
+    cursor: pointer;
+}
+.container label{
+    cursor: pointer;
+}
+
